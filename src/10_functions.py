@@ -2,6 +2,7 @@
 
 # YOUR CODE HERE
 
+
 # Read a number from the keyboard
 num = input("Enter a number: ")
 num = int(num)

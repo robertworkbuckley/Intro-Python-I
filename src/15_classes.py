@@ -16,6 +16,9 @@ class Waypoint(LatLon):
         self.name = name
         super().__init__(lat, lon)
 
+    def __repr__(self):
+        return "Employee({}, {}, '{}')".format(self.lat, self.lon, self.name)
+
     def __str__(self):
         return f""""name": {self.name}, "lat": {self.lat}, "lon": {self.lon}"""
 
